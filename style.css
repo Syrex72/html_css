@@ -1,0 +1,24 @@
+.header {
+	background-color: #0000ff;
+	padding: 15px 0;
+}
+
+.header .nav-header .nav-header-list {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.ancor {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+.main {
+
+}
+
+.footer {
+	padding: 10px 0;
+	width: 100%;
+	background-color: #0000ff;
+}
