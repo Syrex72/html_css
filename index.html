@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form action="#" method="get" target="_blank">
+      <section>
+        <h1>Cabeçalho</h1>
+        <p>alguma coisa sobre o formulario</p>
+        
+        <fieldset>
+          <legend>Info/descricao</legend>  
+          <p>
+            <label for="nome" style="display: block;">Nome:</label>
+            <input type="text" id="nome" autocomplete="off" placeholder="Seu nome">
+          </p>
+
+          <p>
+            Checkbox:<br>
+            <label for="checkbox" style="display: block;">Nome1:</label>
+            <input type="checkbox" id="checkbox" value="sim">
+            <label for="checkbox2" style="display: block;">Nome2:</label>
+            <input type="checkbox" id="checkbox2" value="sim">
+          </p>
+
+          <p>
+            Radio:<br>
+            <label for="checkbox">Tipo A:</label>
+            <input type="radio" id="checkbox" value="a" name="caixa">
+
+            <label for="checkbox2" >Tipo B:</label>
+            <input type="radio" id="checkbox2" value="b" name="caixa">
+          </p>
+
+          <p>
+            Data:<br>
+            <label for="data">data:</label>
+            <input type="date" id="data" value="2020-01-01">
+          </p>
+
+          <p>
+            Data e hora:<br>
+            <label for="datahora">Nome1:</label>
+            <input type="datetime-local" id="datahora" value="2020-01-01T20:00">
+          </p>
+
+          <p>
+            hora e segundo:<br>
+            <label for="time">hora:</label>
+            <input type="time" id="time"  name="time" value="20:00:00">
+          </p>
+
+          <p>
+            Cor:<br>
+            <label for="cor">Cor:</label>
+            <input type="color" id="color" name="color" value="#ffffff">
+          </p>
+
+          <p>
+            Email:<br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email@gmail.com">
+          </p>
+
+          <p>
+            arquivo:<br>
+            <label for="file">Arquivo:</label>
+            <input type="file" id="file" name="file" accept="image/*" multiple>
+          </p>
+
+          <p>
+            Numero:<br>
+            <label for="number">Numero:</label>
+            <input type="number" id="number" name="number" placeholder="Digite um numero" min="0" max="100" step="5">
+          </p>
+
+          <p>
+            range:<br>
+            <label for="range">Numero:</label>
+            <input type="range" id="range" name="range" min="0" max="10" step="2">
+          </p>
+
+          <p>
+            URL:<br>
+            <label for="url">Email:</label>
+            <input type="url" id="url" name="url" placeholder="Digite uma URL">
+          </p>
+
+          <p>
+            select:<br>
+            <label for="select">select:</label>
+            <select id="select" name="select" multiple>
+              <optgroup label="opções">
+                <option value="1" label="10">
+                <option value="2" label="20">
+                <option value="3" label="30">
+              </optgroup>
+            </select>
+          </p>
+          
+          <p>
+            textarea:<br>
+            <label for="textarea">textarea:</label>
+            <textarea name="textarea" id="textarea" rows="5" cols="3"></textarea>
+          </p>
+
+          <p>
+            <button type="reset">Apagar</button>
+            <button type="submit">Finalizar</button>
+          </p>
+        </fieldset>
+
+      </section>
+    </form>
+  </body>
+
+</html>
