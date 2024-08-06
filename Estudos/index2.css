@@ -1,0 +1,29 @@
+/* Isso aqui faz com que o tamanho da unidade REM fique = 10, já que o tamanho de 100% que a pagina disponibiliza é 16px, regra de 3 né, ai da 10px */
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth; /* literalmente o que tá escrito */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pai{
+    height: 100vh;
+    /* 50px */
+    font-size: 2rem; 
+    color: white;
+    background: blue;
+}
+
+.cor-1{
+    background: red;
+    color: cyan ;
+}
+
+.cor-2{
+    background: yellow;
+    color: black;
+}

@@ -1,0 +1,19 @@
+/* Isso aqui faz com que o tamanho da unidade REM fique = 10, já que o tamanho de 100% que a pagina disponibiliza é 16px, regra de 3 né, ai da 10px */
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth; /* literalmente o que tá escrito */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 300px){ /*quando n especificar um valor antes do (max/min) ele fica como all*/
+
+}
+
+@media (min-width: 301px) and (max-width: 768px){
+
+}

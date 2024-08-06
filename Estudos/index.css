@@ -1,0 +1,33 @@
+/* Isso aqui faz com que o tamanho da unidade REM fique = 10, já que o tamanho de 100% que a pagina disponibiliza é 16px, regra de 3 né, ai da 10px */
+html{
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Esse aqui adiciona um pseudo elemento no final da div, 'dá um "tamanho" pra ele e mandar limpar ambos lados para que qualquer coisa que
+vier depois não precise do clear:both */
+.grid::after{ 
+    content: "";
+    display: block; 
+    clear: both;
+}
+
+
+/* lembrar que esse float é pra disponiblizar o espaço não utilizado pelo item pra outro item */
+.grid .col {
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    padding: 5px;
+}
+
+.grid .col .col-content{
+    width: 100%;
+    height: 100%;
+    background: red;
+}

@@ -1,0 +1,22 @@
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+    border: none;
+    padding: 20px;
+    transition: all 300ms ease-in-out;
+}
+
+.btn:hover{
+    background-color: hsl(0, 100%, 50%, 0.5);
+}
