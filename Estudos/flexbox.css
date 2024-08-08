@@ -1,0 +1,28 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.div{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* align-content: center; */
+    /* flex-wrap: wrap; */
+    width: 100%;
+    height: 100vh;
+}
+
+.texto{
+    background-color: red;
+    width: 100%;
+    border: 10px solid white;
+}
